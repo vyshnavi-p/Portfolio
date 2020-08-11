@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css linking -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- fontawesome 5 cdn linking -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+
+    <!-- lightbox css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+
+    <!-- custom css linking
+    customized css must be linked at the end -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>BS4 Boiler Plate</title>
+</head>
+<body>
+  
+       <div class="container">
+            <header>
+                <div class="row no-gutters">
+                    <div class="col-md-4 col-sm-12 image">
+                        <img src="images/profile.jpg" alt="Profile picture">
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <div class="d-flex flex-column">
+                            <div class="p-5 bg-dark text-white ">
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <h2>Vyshnavi Pulagam</h2>
+                                    <div >
+                                        <a href="#" class="text-white">
+                                        <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-white">
+                                        <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-white">
+                                        <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-white">
+                                        <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 bg-black">
+                           <h5>Front End Developer</h5>
+                        </div>
+                        <div class="d-flex flex-row text-white text-center align-items-stretch ">
+                           <div class="p-5 bg-primary menu-item" data-toggle="collapse" data-target="#Home">
+                               <div>
+                                <i class="fa fa-home fa-2x text-center"></i>
+                                <span class="d-none d-md-block">Home</span>
+                               </div>
+                            </div>
+                           <div class="p-5 bg-success menu-item" data-toggle="collapse" data-target="#Resume">
+                                <div>
+                                 <i class="fa fa-graduation-cap fa-2x  text-center"></i>
+                                 <span class="d-none d-md-block">Resume</span>
+                                </div>
+                            </div>
+
+                            <div class="p-5 bg-warning menu-item" data-toggle="collapse" data-target="#Work">
+                                <div>
+                                    <i class="fa fa-folder-open fa-2x text-center"></i>
+                                    <span class="d-none d-md-block">Work</span>
+                                </div>
+                            </div>
+
+                            <div class="p-5 bg-danger menu-item" data-toggle="collapse" data-target="#Contact">
+                                <div>
+                                    <i class="fa fa-envelope fa-2x text-center"></i>
+                                    <span class="d-none d-md-block">Contact</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+<!-- show:to be open when refreshed -->
+            <div class="collapse" id="Home">
+                <div class="card card-body bg-primary text-white py-5">
+                    <h2>Welcome to my Portfolio</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, eius delectus. Enim provident quisquam voluptatibus. Facilis, adipisci repellat? Ipsam voluptas saepe iste adipisci veniam numquam accusamus tempora, minus est quae illo ipsum, ratione, eius deserunt?</p>
+                </div>
+                <div class="card card-body py-5">
+                    <h3>My Skills</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum esse distinctio pariatur impedit, harum accusamus dicta voluptatibus, deleniti culpa asperiores voluptates, ipsum architecto exercitationem unde!</p>
+                    <hr>
+                    <h4>HTML5</h4>
+                    <!-- progress bar -->
+                    <div class="progress my-2">
+                        <div class="progress-bar bg-info" style="width: 90%;">
+                        </div>
+                    </div>
+                    <h4>CSS3</h4>
+                    <div class="progress my-2">
+                        <div class="progress-bar bg-info" style="width: 79%;">
+                        </div>
+                    </div>
+                    <h4>Javascript</h4>
+                    <div class="progress my-2">
+                        <div class="progress-bar bg-info" style="width: 85%;">
+                        </div>
+                    </div>
+                    <h4>Angular JS</h4>
+                    <div class="progress my-2">
+                        <div class="progress-bar bg-info" style="width: 95%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse" id="Resume">
+                <div class="card card-body bg-success py-5">
+                    <h2>My Skills and Qualifications</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur nihil aliquam assumenda non dolore tempore, quidem accusamus repudiandae nam porro, quia, architecto ea ipsam ad?</p>
+                </div>
+                <div class="card card-body">
+                    <h3>Work Experience</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minima fuga iste laudantium itaque, autem exercitationem perspiciatis beatae natus saepe voluptate sapiente deserunt nostrum dolor error numquam aperiam non. Cumque!</p>
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card card-body">
+                                <h4 class="card-title">School</h4>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolorum ea laudantium, harum ex eaque ipsum ab beatae, labore adipisci aperiam quidem veniam provident quia veritatis culpa voluptatum enim alias ad, obcaecati dolor dicta id.</p>
+                                <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum.</p>
+                                <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum.</p>
+                                <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum.</p>
+                                <div class="card-footer"><h6 class="text-muted">Period:2008-2015</h6></div>
+                            </div>   
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card card-body">
+                                <h4 class="card-title">School</h4>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolorum ea laudantium, harum ex eaque ipsum ab beatae, labore adipisci aperiam quidem veniam provident quia veritatis culpa voluptatum enim alias ad, obcaecati dolor dicta id.</p>
+                                <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum.</p>
+                                <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum.</p>
+                                <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum.</p>
+                                <div class="card-footer"><h6 class="text-muted">Period:2008-2015</h6></div>
+                            </div>   
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card card-body">
+                                <h4 class="card-title">School</h4>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolorum ea laudantium, harum ex eaque ipsum ab beatae, labore adipisci aperiam quidem veniam provident quia veritatis culpa voluptatum enim alias ad, obcaecati dolor dicta id.</p>
+                                <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum.</p>
+                                <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum.</p>
+                                <p class="p-2 mb-3 bg-dark text-white">Lorem, ipsum.</p>
+                                <div class="card-footer"><h6 class="text-muted">Period:2008-2015</h6></div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="collapse" id="Work">
+                <div class="card card-body bg-warning py-5 text-white">
+                    <h2>My Work</h4>
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In magni eveniet libero sit? Illo sit voluptas natus, ex soluta hic!</p>
+                </div>
+                <div class="card card-body py-5">
+                    <h3>What have I built?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officiis pariatur mollitia aut eum temporibus esse optio dolorum, minus eveniet accusantium error nesciunt? Dignissimos quisquam animi dolore. Ipsa explicabo possimus veniam, debitis ducimus dolore, exercitationem alias recusandae vero velit obcaecati.</p>
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
+                                <img src="https://unsplash.it/600.jpg?image=251" alt="Work image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
+                                <img src="https://unsplash.it/600.jpg?image=252" alt="Work image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
+                                <img src="https://unsplash.it/600.jpg?image=253" alt="Work image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
+                                <img src="https://unsplash.it/600.jpg?image=254" alt="Work image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
+                                <img src="https://unsplash.it/600.jpg?image=255" alt="Work image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://unsplash.it/1200/768.jpg?image=259" data-toggle="lightbox">
+                                <img src="https://unsplash.it/600.jpg?image=259" alt="Work image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://unsplash.it/1200/768.jpg?image=260" data-toggle="lightbox">
+                                <img src="https://unsplash.it/600.jpg?image=260" alt="Work image" class="img-fluid">
+                            </a>
+                        </div>
+                       
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse" id="Contact">
+                <div class="card card-body bg-danger text-white py-5">
+                    <h2>Contact details</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae aliquam vero minima tempore totam quaerat, pariatur laboriosam, ab itaque molestias dolores obcaecati reiciendis blanditiis, doloribus doloremque architecto! Suscipit adipisci laborum hic maiores pariatur nostrum non.</p>
+                </div>
+                <div class="card card-body py-5">
+                    <h3>Get in Touch</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores impedit dolore sunt deleniti exercitationem esse animi distinctio earum nemo perspiciatis optio inventore, accusantium, repudiandae necessitatibus eligendi eaque? Ex nam maxime, ratione error earum excepturi illo culpa accusantium sint repellat repellendus.</p>
+                    <form>
+                        <div class="input-group input-group-lg my-2">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                            <input class="input form-control bg-dark text-white" type="text" placeholder="User Name"></input>
+
+                        </div>
+                        <div class="input-group input-group-lg my-2">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                            <input class="input form-control bg-dark text-white" type="email" placeholder="e-mail id"></input>
+
+                        </div>
+                        <div class="input-group input-group-lg my-2">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fas fa-pencil"></i>
+                                </span>
+                            </div>
+                            <textarea class="input form-control bg-dark text-white" type="text" placeholder="Message"></textarea>
+                        </div>
+                        <input type="button" class="btn btn-danger btn-block my-2" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <footer class="p-5 bg-dark text-white">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="#" class="btn btn-outline-light">
+                            <i class="fas fa-cloud"></i>Download Resume
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+   
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js linking -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- lightbox js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA==" crossorigin="anonymous"></script>
+    
+    <!-- custom js linking -->
+    <script src="js/script.js"></script>
+
+    <!-- lightbox -->
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });  
+    
+
+        // collapse script
+        // when one opens all others closes automatically through js
+        $('.menu-item').click(function(){
+            $('.collapse').collapse('hide');
+        });
+
+    </script>
+        
+    
+
+
+</body>
+</html>
